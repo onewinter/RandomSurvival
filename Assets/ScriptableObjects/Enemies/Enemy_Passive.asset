@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36df20972ee92af498a3ba435ba60a4f, type: 3}
+  m_Name: Enemy_Passive
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: -4402442851505248414, guid: d9595c35ffb020b45ac56bb9fe8bde58,
+    type: 3}
+  Name: Alpaca (Passive)
+  MaterialColor: {r: 0.6886792, g: 0.6886792, b: 0.6886792, a: 0}
+  ModelPrefab: {fileID: 6078558454541208837, guid: 3fa2d9768ec81a442b2e2129d08ccc9f,
+    type: 3}
+  EnemyBrain: {fileID: 11400000, guid: 53e5d410448cb0b41a40a82fe804f001, type: 2}
+  AllowedBiomes: 000000000400000003000000010000000200000005000000
+  AllowedHeights: 010000000000000002000000
+  Loot:
+  - {fileID: 5866987120697484434, guid: 459c8f812e83a68439fb183f24dca48a, type: 3}
+  LootChance: 0.75
+  Health: 8
+  Damage: 0

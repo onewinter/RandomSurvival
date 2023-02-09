@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f79a3298a966ce8419c58fe5944f5745, type: 3}
+  m_Name: GameEvents
+  m_EditorClassIdentifier: 
+  NewGameEvent: {fileID: 11400000, guid: 0cf0d5d383024db47ad19786c1c48632, type: 2}
+  GameOverEvent: {fileID: 11400000, guid: c7f6e61b552301f4d9130a8595e2f20a, type: 2}
+  SpawnEnemyEvent: {fileID: 11400000, guid: 886b43ebe4ec4b74cb122085e5d4996f, type: 2}
+  UpdateUIEvent: {fileID: 11400000, guid: 30fe266507522db4f80c0532f5aab0e4, type: 2}
+  MessageEvent: {fileID: 11400000, guid: 3be07a379fbafcc49af7d6822060c42c, type: 2}
+  AudioEvent: {fileID: 11400000, guid: 380885dd43e08e4428e4cda59a4566f7, type: 2}
+  MovePlayerEvent: {fileID: 11400000, guid: 9dccab8c08787e8408ebcda8b83a154d, type: 2}
+  MoveCameraEvent: {fileID: 11400000, guid: c1f8c4c27c601ca41b7533fe7995e9a6, type: 2}
+  StopCameraEvent: {fileID: 11400000, guid: 9e9a9f5edd91f9742b1b050e770c4c03, type: 2}

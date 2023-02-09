@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa20ff658aafc824fafd3ddafd6e9167, type: 3}
+  m_Name: EnemyBrainDash_
+  m_EditorClassIdentifier: 
+  chaseRange: 6.5
+  patrollingDirectionSwitchTime: 3.5
+  patrolRange: 2.5
+  chaseSpeed: 7
+  patrolSpeed: 2
+  dashLength: 1.25
+  dashPause: 1.25
+  flashColor: {r: 1, g: 0.19320267, b: 0, a: 1}
